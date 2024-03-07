@@ -1,0 +1,219 @@
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  /* --------------------------------MediaQ------------------------------------ */
+/* -----------------------------DESKTOP------------------------------------ */
+@media (max-width: 1280px) {
+    body{
+        background-color: green;
+    }
+    .textbox{
+        background-image: url("https://pm1.aminoapps.com/6913/3776e8511b08a5780d46084252623fd282a2ce4fr1-640-666v2_hq.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-size: 100%;  */
+        /* background-attachment: fixed; */
+        /* border:solid lime; */
+        width:33%;
+        color: white;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }  
+    .secretsidebar{
+        background-image: url("https://i.pinimg.com/236x/2c/c2/1b/2cc21bb2b6106673f1d594cb576dc27b.jpg");
+        display: flex;
+        align-items: center;
+        /* border:solid purple; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:33%;
+    }
+    .img{
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border:solid black;
+
+    }
+    .one{
+        /* border:solid yellow; */
+        width:33%;
+        display:block;
+    }
+    .two{
+        /* border:solid orange; */
+        width:33%;
+        display:block;
+    }
+    .three{
+        /* border:solid salmon; */
+        width:33%;
+        display:block;
+    }
+    .title{
+        color:white;
+        
+    }
+}
+/* ------------------------------------------------[ END Desktop]--------------- */
+/* ---------------------------------------TABLET-------------------------- */
+@media (max-width: 880px) {
+    body{
+        background-color: peru;
+    }
+    .secretsidebar{
+        /* border:solid purple; */
+        width:15%;
+        display:none;
+    }
+    .textbox{
+        background-image: url("https://pm1.aminoapps.com/6913/3776e8511b08a5780d46084252623fd282a2ce4fr1-640-666v2_hq.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-size: 100%;  */
+        /* background-attachment: fixed; */
+        /* border:solid lime; */
+        width:50%;
+        color: white;
+        align-items: center;
+        text-align: center;
+        font-size: 10px;
+    } 
+    .one{
+        /* border:solid yellow; */
+        width:50%;
+        display:block;
+    }
+    .two{
+        /* border:solid orange; */
+        width:50%;
+        display:block;
+    }
+    .three{
+        /* border:solid salmon; */
+        width:33%;
+        display:none;
+    }
+    .title{
+        color:white;
+        padding:70px;
+        
+    }
+}
+/* ------------------------------------------------[END Tablet]------------------- */
+/* -----------------------------------------MOBILE------------------------------- */
+@media (max-width: 580px) {
+    body{
+        background-color: burlywood;
+    }
+    .textbox{
+        background-image: url("https://pm1.aminoapps.com/6913/3776e8511b08a5780d46084252623fd282a2ce4fr1-640-666v2_hq.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-size: 100%;  */
+        /* background-attachment: fixed; */
+        /* border:solid lime; */
+        width:50%;
+        color: white;
+        align-items: center;
+        font-size: 15px;
+    } 
+    .secretsidebar{
+        /* border:solid purple; */
+        width:25%;
+        display:none;
+    }
+    .one{
+        /* border:solid yellow; */
+        width:100%;
+        display:block;
+    }
+    .two{
+        /* border:solid orange; */
+        width:33%;
+        display:none;
+    }
+    .three{
+        /* border:solid salmon; */
+        width:33%;
+        display:none;
+    }
+    .title{
+        color:white;
+        padding:50px;
+        
+    }
+}
+/* --------------------------------------[END Mobile]----------------------- */
+/* -----------------------------------GENERAL------------------------------- */
+
+.navContainer{
+ border:solid black;
+ border-width:.2px;
+ height:6vh;
+ margin:1em;
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.top{
+ border:solid black;
+ border-width:.2px;
+ height:42vh;
+ margin-top:4em;
+ display:flex;
+ justify-content: space-evenly;
+ 
+}
+.middle{
+ /* border:solid black; */
+ /* border-width:.2px; */
+ /* height:42vh; */
+ margin:1em;
+ display:flex;
+}
+.bottom{
+     border:solid black;
+     border-width:.2px;
+     height:42vh;
+     margin:1em;
+}
+.logo{
+    /* border:solid red; */
+    height:100%;
+}
+
+.left-image{
+    /* border:solid white; */
+    width:50%;
+}   
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: purple!important;
+}
+.animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    /* border:solid black; */
+    color:purple;
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+  
+  .bounce-animation {
+    font-size: 36px;
+    animation: bounce 1s infinite;
+  }
